@@ -77,6 +77,19 @@ html, body {
 	margin: 0px 0px 0px 20px;
 }
 
+.fontsmall{
+ 	font-size: 16px;
+}
+.fontmedium {
+	font-size:20px
+}
+.fontlarge{
+	font-size:24px;
+}
+.fonthuge {
+	font-size:28px;
+}
+
 // Responsive Web
 .container {
 	max-width:1024px;
@@ -101,7 +114,7 @@ header {
 		color: black;
 		text-decoration: none;
 		padding: 0px 10px 0px;
-		font-size: 24px;
+		.fontlarge ();
 		
 	}
 
@@ -119,11 +132,11 @@ header {
 	.bordered ();
 
 	h4{
-		font-size: 28px;
+		.fonthuge ();
 		.defaultmargin ();
 	}
 	h2 {
-		font-size: 20px;
+		.fontmedium ();
 		.defaultmargin ();
 	}
 
@@ -138,7 +151,7 @@ header {
 	}
 
 	button {
-		font-size:24px;
+		.fontlarge ();
 		height: 80px;
 		width: 200px;
 		background: @altcolor4;
@@ -163,6 +176,7 @@ header {
 		width: 49%;
 		background:@altcolor1;
 		.bordered ();
+		padding:10p
 	}
 
 	.interests {
@@ -170,7 +184,9 @@ header {
 		background: @altcolor2;
 		.bordered ();
 	}
-
+	h3 {
+		.fontmedium ();
+	}
 }
 
 .bottom-content {
@@ -181,6 +197,10 @@ header {
 		width: 90%;
 		background:@altcolor3;
 		.bordered ();
+
+		h3{
+			.fontmedium ();
+		}
 	
 
 	}

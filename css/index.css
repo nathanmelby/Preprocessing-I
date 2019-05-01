@@ -143,6 +143,18 @@ body {
 .defaultmargin {
   margin: 0px 0px 0px 20px;
 }
+.fontsmall {
+  font-size: 16px;
+}
+.fontmedium {
+  font-size: 20px;
+}
+.fontlarge {
+  font-size: 24px;
+}
+.fonthuge {
+  font-size: 28px;
+}
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -217,6 +229,7 @@ header nav a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
+  padding: 10p;
 }
 .middle-content .interests {
   width: 49%;
@@ -224,6 +237,9 @@ header nav a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
+}
+.middle-content h3 {
+  font-size: 20px;
 }
 .bottom-content {
   display: flex;
@@ -235,6 +251,9 @@ header nav a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
+}
+.bottom-content .work-history h3 {
+  font-size: 20px;
 }
 footer {
   display: flex;
