@@ -57,12 +57,20 @@ html, body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif
 }
+// Variables
+
+@maincolor: lightgray;
+@altcolor1: lightblue;
+@altcolor2: lightcoral;
+@altcolor3: lightgreen;
+@altcolor4: dodgerblue;
 
 // Responsive Web
 .container {
 	max-width:1024px;
 	margin: 0 auto;
 }
+// 
 
 header {
 	display:flex;
@@ -87,7 +95,7 @@ header {
 	flex-direction:column;
 	width: 90%;
 	height: 700px;
-	background: lightgray;
+	background: @maincolor;
 
 	img{
 		width: auto;
@@ -98,7 +106,7 @@ header {
 		font-size:24px;
 		height: 80px;
 		width: 200px;
-		background:dodgerblue;
+		background: @altcolor4;
 		color: white;
 		border:none;
 	}
@@ -112,12 +120,12 @@ header {
 
 	.bio {
 		width: 45%;
-		background:lightblue;
+		background:@altcolor1;
 	}
 
 	.interests {
 		width:45%;
-		background: lightcoral;
+		background: @altcolor2;
 	}
 
 }
@@ -127,7 +135,7 @@ header {
 
 	.work-history {
 		width: 90%;
-		background: lightgreen;
+		background:@altcolor3;
 	
 
 	}
