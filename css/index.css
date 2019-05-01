@@ -231,7 +231,7 @@ header nav a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
-  padding: 10p;
+  padding: 10p margin: 0px 0px 0px 20px;;
 }
 .middle-content .interests {
   width: 49%;
@@ -242,6 +242,10 @@ header nav a {
 }
 .middle-content h3 {
   font-size: 20px;
+  margin: 0px 0px 0px 20px;
+}
+.middle-content p {
+  margin: 0px 0px 0px 20px;
 }
 .bottom-content {
   display: flex;
@@ -256,6 +260,10 @@ header nav a {
 }
 .bottom-content .work-history h3 {
   font-size: 20px;
+  margin: 0px 0px 0px 20px;
+}
+.bottom-content .work-history p {
+  margin: 0px 0px 0px 20px;
 }
 footer {
   display: flex;
