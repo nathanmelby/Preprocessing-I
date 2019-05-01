@@ -133,4 +133,58 @@ table {
 html,
 body {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+header nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 10px 0px;
+}
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 90%;
+  height: 700px;
+  background: lightgray;
+}
+.top-content img {
+  width: auto;
+  height: auto;
+}
+.top-content button {
+  font-size: 24px;
+  height: 80px;
+  width: 200px;
+  background: dodgerblue;
+  color: white;
+  border: none;
+}
+.middle-content {
+  display: flex;
+  margin: 40px 0px 40px;
+}
+.middle-content .bio {
+  width: 45%;
+  background: lightblue;
+}
+.middle-content .interests {
+  width: 45%;
+  background: lightcoral;
+}
+.bottom-content {
+  display: flex;
+}
+.bottom-content .work-history {
+  width: 90%;
+  background: lightgreen;
 }
