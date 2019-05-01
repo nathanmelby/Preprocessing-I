@@ -148,12 +148,15 @@ body {
 }
 .fontmedium {
   font-size: 20px;
+  font-weight: bold;
 }
 .fontlarge {
   font-size: 24px;
+  font-weight: bold;
 }
 .fonthuge {
   font-size: 28px;
+  font-weight: bold;
 }
 .container {
   max-width: 1024px;
@@ -174,6 +177,7 @@ header nav a {
   text-decoration: none;
   padding: 0px 20px 0px;
   font-size: 24px;
+  font-weight: bold;
 }
 .top-content {
   display: flex;
@@ -190,10 +194,12 @@ header nav a {
 }
 .top-content h4 {
   font-size: 28px;
+  font-weight: bold;
   margin: 0px 0px 0px 20px;
 }
 .top-content h2 {
   font-size: 20px;
+  font-weight: bold;
   margin: 0px 0px 0px 20px;
 }
 .top-content .photo {
@@ -207,6 +213,7 @@ header nav a {
 }
 .top-content button {
   font-size: 24px;
+  font-weight: bold;
   height: 80px;
   width: 200px;
   background: dodgerblue;
@@ -242,6 +249,7 @@ header nav a {
 }
 .middle-content h3 {
   font-size: 20px;
+  font-weight: bold;
   margin: 0px 0px 0px 20px;
 }
 .middle-content p {
@@ -260,6 +268,7 @@ header nav a {
 }
 .bottom-content .work-history h3 {
   font-size: 20px;
+  font-weight: bold;
   margin: 0px 0px 0px 20px;
 }
 .bottom-content .work-history p {
