@@ -237,7 +237,6 @@ header nav a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
-  padding: 10p margin: 20px 0px 0px 20px;;
 }
 .middle-content .interests {
   width: 49%;
@@ -245,7 +244,6 @@ header nav a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
-  padding: 10p margin: 20px 0px 0px 20px;;
 }
 .middle-content h3 {
   font-size: 20px;
@@ -253,6 +251,10 @@ header nav a {
   margin: 20px 0px 0px 20px;
 }
 .middle-content p {
+  margin: 20px 0px 0px 20px;
+}
+.middle-content ul {
+  list-style-type: circle;
   margin: 20px 0px 0px 20px;
 }
 .bottom-content {
