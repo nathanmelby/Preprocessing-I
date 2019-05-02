@@ -224,6 +224,10 @@ header nav a {
   border-radius: 5px;
   margin: 20px 0px 0px 20px;
 }
+.top-content button:hover {
+  background: white;
+  color: dodgerblue;
+}
 .middle-content {
   display: flex;
   flex-wrap: wrap;
