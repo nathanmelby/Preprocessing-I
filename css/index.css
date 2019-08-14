@@ -163,6 +163,7 @@ ul {
 .fonthuge {
   font-size: 28px;
   font-weight: bold;
+  font-family: 'Monoton', cursive;
 }
 .container {
   max-width: 1024px;
@@ -205,6 +206,7 @@ header nav a:hover {
 .top-content h4 {
   font-size: 28px;
   font-weight: bold;
+  font-family: 'Monoton', cursive;
   margin: 20px 0px 0px 20px;
 }
 .top-content h2 {
