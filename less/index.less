@@ -130,7 +130,7 @@ header {
 	
 		color: black;
 		text-decoration: none;
-		// padding: 0px 20px 0px;
+		margin: 0 5px 0 5px;
 		.fontlarge ();
 		&:hover {
 			text-decoration:underline;
@@ -195,19 +195,28 @@ header {
 	justify-content: space-between;
 	margin:40px 0px 40px;
 	width: 100%;
-
+@media screen and (max-width:500px){
+	flex-direction:column;
+	
+}
 	.bio {
 		width: 49%;
 		background:@altcolor1;
 		.bordered ();
-			
-	}
+		@media screen and (max-width:500px){
+			width:100%;
+			margin-bottom:40px;
+		}
+	}//this closes bio
 
 	.interests {
 		width:49%;
 		background:@altcolor2;
 		.bordered ();	
-	}
+		@media screen and (max-width:500px){
+			width:100%;
+		}
+	}//this closes interests
 
 	h3 {
 		.fontmedium ();
